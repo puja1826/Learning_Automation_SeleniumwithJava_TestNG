@@ -1,0 +1,36 @@
+TestNG-Unit Testing Framework for java(not anyother language)/Junit/unit testing framework
+
+UI/SIT-Devs
+UI-Selenium
+
+Maintain Test Cases
+Annotations
+
+Assertion Libraries
+priorities 
+HTMl Reports
+Depends On Methods
+Expected Exception
+Inovoaction Count
+
+Test Runner-Xml(Runner file , define threading , for parallel execution) and cross browser Testing
+
+TestNg+Selenium+FW==>Hybrid FW
+
+
+1. Run as TestNG
+2.Test NG Dependency in POM.xml file
+3. We can use TestNG methods and features
+4. TestNg plugin on eclipse
+https://testng.org/testng-eclipse-update-site/6.14.3/
+5.
+
+Maven
+https://mkyong.com/maven/how-to-install-maven-in-windows/
+Maven Commands
+brew install maven
+mvn clean install
+
+https://github.com/naveenanimation20/March2021EvePom
+
+

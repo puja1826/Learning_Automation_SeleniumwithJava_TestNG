@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Sessions Suite" verbose="4" thread-count="4"
+	parallel="tests">
+
+	<!-- <test name="Open Cart Login Page Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="https://demo.opencart.com/index.php?route=account/login" />
+		<classes>
+			<class name="TestNG.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="Open Cart Home Page Test">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url"
+			value="https://demo.opencart.com/index.php?route=account/login" />
+		<classes>
+			<class name="TestNG.HomePageTest" />
+		</classes>
+	</test> -->
+	
+	<test name="Open Cart Registration Page Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="https://demo.opencart.com/index.php?route=account/register" />
+		<classes>
+			<class name="TestNG.RegistrationPageTest" />
+		</classes>
+	</test> 
+	<!-- <test name="Open Cart search Page Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="https://demo.opencart.com/index.php?route=common/home" />
+		<classes>
+			<class name="TestNG.searchDemoCartTest" />
+		</classes>
+	</test>
+	 -->
+</suite>
+
